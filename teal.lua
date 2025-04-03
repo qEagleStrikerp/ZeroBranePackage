@@ -285,7 +285,7 @@ local name = "teal"
 return {
   name = "Teal",
   description = "Implements integration for Teal language.",
-  author = "Paul Kulchenko",
+  author = "qEagleStrikerp (based on pkuchenko's other plugins)",
   version = 0.1,
   dependencies = "1.91", -- Be sure to use the most recent master version, as the 1.90 release doesn't support this package yet
 
