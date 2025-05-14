@@ -308,6 +308,9 @@ return {
 -- For Windows, it's recommended to just download the precompiled package from https://github.com/teal-language/tl/releases
 -- if `teal` executable is not in PATH, set the path to it manually in user.lua (if you don't have one already, create it in "cfg" folder)
 path.teal = "full/path/tl.exe"
+-- If you additionally want to be able to use Teal in ZBS's local console, download tl.lua from the Teal repo and place it like this:
+-- ZeroBraneStudio/lua/teal.lua
+-- Then, you can start using it by typing 'tl = require("tl")' in the local console
 -- If everything worked, you should have a new Interpreter called "Teal" in Project -> Lua Interpreter
 -- Since Teal supports Lua 5.4, you can also use it for writing Lua 5.4 code
 -- Teal will treat .lua files as Lua code and .tl files as Teal code, so you can safely code and run both Lua and Teal in ZBS
